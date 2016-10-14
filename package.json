@@ -1,0 +1,22 @@
+{
+  "name": "depotjs.github.io",
+  "version": "1.0.0",
+  "description": "DepotJS Website",
+  "main": "index.html",
+  "scripts": {
+    "doc": "jsdoc -p ../depotjs/*.js ../depotjs/README.md -d . -c ./conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depotjs/depotjs.github.io.git"
+  },
+  "author": "Jeff Pihach <@fromanegg>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depotjs/depotjs.github.io/issues"
+  },
+  "homepage": "https://github.com/depotjs/depotjs.github.io#readme",
+  "devDependencies": {
+    "jsdoc": "^3.4.2"
+  }
+}
